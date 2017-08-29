@@ -118,6 +118,9 @@ button:focus {
     img {
       width: 200px;
       height: auto;
+      @media (max-width: 600px) {
+        width: 100%;
+      }
     }
   }
 }
