@@ -23,6 +23,11 @@ a {
   }
 }
 
+button:focus {
+  outline:none;
+  cursor: pointer;
+}
+
 .Carousel {
 
   position: relative;
@@ -92,6 +97,9 @@ a {
     margin: 0 5px;
     &.active {
       background: #ff9df5;
+    }
+    &:hover {
+      background: lighten(#ff9df5, 50%);
     }
   }
 
