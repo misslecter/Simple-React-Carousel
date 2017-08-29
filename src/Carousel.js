@@ -8,12 +8,18 @@ class Carousel extends Component {
             itemCount: props.children.length,
             active: 0
         };
+        this.timer = this.timer.bind(this);
         this.slide = this.slide.bind(this);
         this.handleKeyDown = this.handleKeyDown.bind(this);
     }
 
     componentDidMount() {
         window.addEventListener("keydown", this.handleKeyDown);
+        setInterval(this.timer, 2000);
+    }
+
+    timer() {
+        this.slide('next');
     }
 
     slide(target) {

@@ -8,17 +8,17 @@ import Carousel from "./Carousel";
 
 let ImageCarousel = (
     <Carousel>
-        <img src="./img/1.jpg"/>
-        <img src="./img/2.jpg"/>
-        <img src="./img/3.jpg"/>
-        <img src="./img/4.jpg"/>
+        <img src="./img/1.jpg" alt="Simple React Carousel" />
+        <img src="./img/2.jpg" alt="Simple React Carousel" />
+        <img src="./img/3.jpg" alt="Simple React Carousel" />
+        <img src="./img/4.jpg" alt="Simple React Carousel" />
     </Carousel>
 );
 
 let HtmlCarousel = (
     <Carousel>
         <div className="HtmlContent">
-            <img src="./img/1.jpg"/>
+            <img src="./img/1.jpg" alt="Simple React Carousel" />
             <h2>Html Content 1</h2>
             <p>Lorem ipsum dolor sit amet, et semper maiestatis cum, ne nobis nusquam abhorreant has, choro doming
                 eirmod ei est. Adhuc mediocrem mel ex, mel agam ponderum disputando ad, eu vitae saperet has. Cum
@@ -27,7 +27,7 @@ let HtmlCarousel = (
                 vituperatoribus duo. Te numquam vulputate duo, eu eum sumo legimus.</p>
         </div>
         <div className="HtmlContent">
-            <img src="./img/2.jpg"/>
+            <img src="./img/2.jpg" alt="Simple React Carousel" />
             <h2>Html Content 2</h2>
             <p>Duis legimus ei sed, solum nemore nec te, fabulas dissentiet liberavisse id eam. Ad vis falli labore,
                 dolorem facilis id eam. Iuvaret explicari cum et. His consulatu laboramus eu, per nostro malorum
@@ -38,7 +38,7 @@ let HtmlCarousel = (
                 voluptua suscipiantur in, et usu illud soluta nostro. Ad usu delectus invenire evertitur.</p>
         </div>
         <div className="HtmlContent">
-            <img src="./img/3.jpg"/>
+            <img src="./img/3.jpg" alt="Simple React Carousel" />
             <h2>Html Content 3</h2>
             <p>Lorem ipsum dolor sit amet, et semper maiestatis cum, ne nobis nusquam abhorreant has, choro doming
                 eirmod ei est. Adhuc mediocrem mel ex, mel agam ponderum disputando ad, eu vitae saperet has. Cum
@@ -47,7 +47,7 @@ let HtmlCarousel = (
                 vituperatoribus duo. Te numquam vulputate duo, eu eum sumo legimus.</p>
         </div>
         <div className="HtmlContent">
-            <img src="./img/4.jpg"/>
+            <img src="./img/4.jpg" alt="Simple React Carousel" />
             <h2>Html Content 4</h2>
             <p>Duis legimus ei sed, solum nemore nec te, fabulas dissentiet liberavisse id eam. Ad vis falli labore,
                 dolorem facilis id eam. Iuvaret explicari cum et. His consulatu laboramus eu, per nostro malorum
