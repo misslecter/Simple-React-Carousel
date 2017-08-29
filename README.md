@@ -3,3 +3,5 @@
 - Images support
 - HTML content support
 - Performed with React.js and Sass
+
+<a href="//anastasiasurikova.com/demos/simple-react-carousel/">Demo</a>
