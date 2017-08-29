@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Motion, spring} from 'react-motion';
 
 class Carousel extends Component {
 
@@ -16,8 +15,8 @@ class Carousel extends Component {
 
     componentDidMount() {
         window.addEventListener("keydown", this.handleKeyDown);
-        // autoplay
-        // setInterval(this.timer, 2000);
+        // AUTOPLAY
+        setInterval(this.timer, 2000);
     }
 
     timer() {
@@ -72,9 +71,6 @@ class Carousel extends Component {
                 <div className="Carousel-Dots">
                     {dots}
                 </div>
-                <Motion defaultStyle={{x: 0}} style={{x: spring(10)}}>
-                    {value => <div>{value.x}</div>}
-                </Motion>
             </div>
         )
     }
