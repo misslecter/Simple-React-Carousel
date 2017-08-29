@@ -38,6 +38,7 @@ button:focus {
 
   &-Content {
     height: 450px;
+    position: relative;
     overflow: hidden;
     background: #565656;
     box-shadow: 0 0 12px 6px rgba(30, 30, 30, 0.5);
@@ -46,10 +47,19 @@ button:focus {
   &-Item {
     text-align: center;
     height: 100%;
-    display: none;
+    width: 100%;
+    display: inline-block;
+
+    -webkit-transition: all 1s ease;
+
+    position: absolute;
+    opacity: 0;
+    //left: 100%;
 
     &.active {
       display: block;
+      opacity: 1;
+      //left: 0;
     }
 
     img {
